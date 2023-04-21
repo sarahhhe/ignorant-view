@@ -1,59 +1,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik&display=swap');
 
 * {
-    font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
-  html, body {
-    margin: 0;
-    padding: 0;
-  }
-  h1 {
-    font-size: 50px;
-    margin-bottom: 17px;
-    color: #333;
-  }
-  h2 {
-    font-size: 24px;
-    line-height: 1.6;
-    margin: 30px 0 0 0;
-    margin-bottom: 18px;
-    margin-top: 33px;
-    color: #333;
-  }
-  h3 {
-    font-size: 30px;
-    margin: 10px 0 20px 0;
-    color: #333;
-  }
 
-  section {
-    width: 640px;
-    margin: auto;
-  }
-  section p {
-    margin-bottom: 27px;
-    font-size: 20px;
-    line-height: 1.6;
-    color: #333;
-  }
-  section img {
-    max-width: 640px;
-  }
-  footer {
-    padding: 0 20px;
-    margin: 50px 0;
-    text-align: center;
-    font-size: 12px;
-  }
-  .aspectRatioPlaceholder {
-    max-width: auto !important;
-    max-height: auto !important;
-  }
-  .aspectRatioPlaceholder-fill {
-    padding-bottom: 0 !important;
-  }
-  header,
-  section[data-field=subtitle],
-  section[data-field=description] {
-    display: none;
-  }
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 17px;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.6;
+  margin: 30px 0 0 0;
+  margin-bottom: 18px;
+  margin-top: 33px;
+  color: #333;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 10px 0 20px 0;
+  color: #333;
+}
+
+section {
+  width: 640px;
+  margin: auto;
+}
+
+section p {
+  margin-bottom: 27px;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #333;
+}
+
+section img {
+  max-width: 640px;
+}
+
+footer {
+  padding: 0 20px;
+  margin: 50px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.aspectRatioPlaceholder {
+  max-width: auto !important;
+  max-height: auto !important;
+}
+
+.aspectRatioPlaceholder-fill {
+  padding-bottom: 0 !important;
+}
+
+header,
+section[data-field=subtitle],
+section[data-field=description] {
+  display: none;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
